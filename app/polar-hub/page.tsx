@@ -197,7 +197,7 @@ function PolarHubWorkspace() {
   }, [activeExpedition])
 
   const activePdfUrl = useMemo(() => {
-    let url = '/api/scraped_docs/Indian_Participation_in_IODP_Final.pdf'
+    let url = 'http://127.0.0.1:8000/api/scraped_docs/Indian_Participation_in_IODP_Final.pdf'
     if (linkedDocs && linkedDocs.length > 0 && linkedDocs[0].download_url) {
       url = linkedDocs[0].download_url
     }
