@@ -1,0 +1,77 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Avg of Ap</title>
+        <link href="images/banner/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+        <style>
+        table, th, td {
+	  border: 1px solid black;
+	  border-collapse: collapse;
+	}
+	td {
+	  text-align: center;
+	}
+	tr:nth-child(even) {
+            background-color: white;
+        }
+        tr:nth-child(odd) {
+            background-color: #f0f0f0;
+        }
+	</style>
+    </head>
+    <body>
+    <table style="width:100%;">
+        <center><b>Maitri,Antarctica</b></center><br>
+<center><b>Avg.Pressure</b></center><br>
+
+<tr><th>Year</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th><th>Jul</th><th>Aug</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dec</th></tr>
+<tr><td>1984</td><td>991.05</td><td>982.44</td><td>977.27</td><td>980.53</td><td>986.76</td><td>984.42</td><td>984.16</td><td>987.47</td><td>977.22</td><td>975.52</td><td>981.22</td><td>992.51</td></tr>
+<tr><td>1985</td><td>983.42</td><td>981.04</td><td>982.37</td><td>982.20</td><td>986.24</td><td>984.53</td><td>969.21</td><td>984.22</td><td>979.91</td><td>975.33</td><td>973.79</td><td>987.58</td></tr>
+<tr><td>1986</td><td>982.54</td><td>990.31</td><td>984.82</td><td>979.08</td><td>991.16</td><td>990.04</td><td>981.69</td><td>983.66</td><td>969.76</td><td>973.08</td><td>980.66</td><td>971.58</td></tr>
+<tr><td>1987</td><td>993.50</td><td>984.14</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>1988</td><td>988.12</td><td>979.02</td><td>983.44</td><td>984.28</td><td>988.67</td><td>993.59</td><td>978.21</td><td>983.61</td><td>986.28</td><td>992.80</td><td>984.08</td><td>984.97</td></tr>
+<tr><td>1989</td><td>986.81</td><td>976.53</td><td>982.84</td><td>987.01</td><td>980.54</td><td>981.84</td><td>978.85</td><td>986.20</td><td>988.99</td><td>978.13</td><td>982.37</td><td>982.93</td></tr>
+<tr><td>1990</td><td>979.75</td><td>967.67</td><td>970.86</td><td>980.79</td><td>981.33</td><td>979.34</td><td>972.50</td><td>970.47</td><td>965.36</td><td>970.43</td><td>974.28</td><td>980.63</td></tr>
+<tr><td>1991</td><td>974.38</td><td>973.60</td><td>966.24</td><td>973.55</td><td>970.29</td><td>975.15</td><td>972.61</td><td>967.23</td><td>973.10</td><td>966.47</td><td>973.10</td><td>975.39</td></tr>
+<tr><td>1992</td><td>975.67</td><td>977.21</td><td>969.91</td><td>970.05</td><td>975.73</td><td>980.14</td><td>967.46</td><td>963.69</td><td>969.94</td><td>971.61</td><td>965.16</td><td>970.30</td></tr>
+<tr><td>1993</td><td>973.67</td><td>968.80</td><td>968.45</td><td>972.65</td><td>970.32</td><td>970.87</td><td>965.53</td><td>962.66</td><td>964.72</td><td>964.22</td><td>970.62</td><td>971.14</td></tr>
+<tr><td>1994</td><td>970.88</td><td>970.64</td><td>966.27</td><td>970.91</td><td>972.38</td><td>982.63</td><td>969.66</td><td>968.18</td><td>973.47</td><td>967.57</td><td>976.10</td><td>967.25</td></tr>
+<tr><td>1995</td><td>970.51</td><td>971.03</td><td>973.69</td><td>969.63</td><td>966.45</td><td>979.80</td><td>980.10</td><td>976.16</td><td>962.70</td><td>970.50</td><td>971.79</td><td>974.68</td></tr>
+<tr><td>1996</td><td>977.64</td><td>976.24</td><td>969.31</td><td>969.77</td><td>969.87</td><td>972.28</td><td>971.40</td><td>975.21</td><td>977.82</td><td>963.96</td><td>975.66</td><td>976.00</td></tr>
+<tr><td>1997</td><td>976.29</td><td>973.04</td><td>964.94</td><td>967.46</td><td>965.19</td><td>975.64</td><td>969.79</td><td>967.39</td><td>972.75</td><td>970.13</td><td>982.19</td><td>974.45</td></tr>
+<tr><td>1998</td><td>970.24</td><td>969.86</td><td>964.70</td><td>963.03</td><td>969.31</td><td>967.37</td><td>968.38</td><td>969.56</td><td>968.26</td><td>968.76</td><td>964.39</td><td>975.20</td></tr>
+<tr><td>1999</td><td>969.11</td><td>975.66</td><td>972.69</td><td>966.15</td><td>965.98</td><td>978.51</td><td>971.85</td><td>968.92</td><td>971.97</td><td>961.27</td><td>967.42</td><td>973.25</td></tr>
+<tr><td>2000</td><td>967.27</td><td>969.09</td><td>971.50</td><td>971.49</td><td>970.14</td><td>971.36</td><td>972.19</td><td>968.57</td><td>978.09</td><td>965.06</td><td>975.06</td><td>980.38</td></tr>
+<tr><td>2001</td><td>969.33</td><td>975.34</td><td>971.76</td><td>965.19</td><td>973.67</td><td>975.18</td><td>973.44</td><td>968.51</td><td>969.59</td><td>968.68</td><td>968.12</td><td>978.63</td></tr>
+<tr><td>2002</td><td>969.50</td><td>964.72</td><td>976.62</td><td>970.60</td><td>977.77</td><td>972.05</td><td>972.28</td><td>969.58</td><td>970.32</td><td>978.50</td><td>973.13</td><td>977.03</td></tr>
+<tr><td>2003</td><td>979.63</td><td>978.15</td><td>970.64</td><td>964.37</td><td>971.26</td><td>978.42</td><td>970.19</td><td>965.28</td><td>969.10</td><td>971.58</td><td>970.07</td><td>977.18</td></tr>
+<tr><td>2004</td><td>970.68</td><td>973.55</td><td>963.82</td><td>968.75</td><td>970.52</td><td>962.88</td><td>963.94</td><td>963.40</td><td>968.11</td><td>967.01</td><td>970.02</td><td>973.71</td></tr>
+<tr><td>2005</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>2006</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>2007</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>2008</td><td>949.25</td><td>956.47</td><td>985.67</td><td>987.57</td><td>991.46</td><td>985.51</td><td>984.65</td><td>985.99</td><td>982.55</td><td>983.31</td><td>983.44</td><td>NA</td></tr>
+<tr><td>2009</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>991.96</td><td>988.35</td></tr>
+<tr><td>2010</td><td>992.91</td><td>990.52</td><td>986.78</td><td>986.83</td><td>990.19</td><td>982.75</td><td>980.32</td><td>980.73</td><td>985.59</td><td>981.90</td><td>981.86</td><td>NA</td></tr>
+<tr><td>2011</td><td>984.99</td><td>987.64</td><td>989.16</td><td>986.34</td><td>985.03</td><td>988.99</td><td>991.64</td><td>988.80</td><td>991.36</td><td>987.91</td><td>991.23</td><td>985.21</td></tr>
+<tr><td>2012</td><td>979.86</td><td>989.09</td><td>988.41</td><td>985.65</td><td>989.06</td><td>993.04</td><td>982.06</td><td>981.12</td><td>985.53</td><td>982.79</td><td>989.46</td><td>990.82</td></tr>
+<tr><td>2013</td><td>987.28</td><td>982.44</td><td>978.80</td><td>986.52</td><td>988.90</td><td>999.07</td><td>986.62</td><td>993.09</td><td>992.31</td><td>987.31</td><td>983.80</td><td>990.10</td></tr>
+<tr><td>2014</td><td>979.44</td><td>968.20</td><td>967.34</td><td>966.86</td><td>976.72</td><td>971.28</td><td>968.86</td><td>971.00</td><td>973.85</td><td>968.33</td><td>969.42</td><td>961.98</td></tr>
+
+
+	</table>
+	<br>
+	Click <a href="https://npdc.ncpor.res.in/pdc/Aws/imd/downloadsdata/monthly_average_data/maitri/maitriavg1984-2014ap.txt" target="_blank">here</a> to download a text version of the above table.
+	<br>&nbsp;
+    </body>
+</html>

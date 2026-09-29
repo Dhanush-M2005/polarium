@@ -1,0 +1,77 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Avg of temp</title>
+        <link href="images/banner/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+        <style>
+        table, th, td {
+	  border: 1px solid black;
+	  border-collapse: collapse;
+	}
+	td {
+	  text-align: center;
+	}
+	tr:nth-child(even) {
+            background-color: white;
+        }
+        tr:nth-child(odd) {
+            background-color: #f0f0f0;
+        }
+	</style>
+    </head>
+    <body>
+    <table style="width:100%;">
+        <center><b>Maitri,Antarctica</b></center><br>
+<center><b>Avg.Temperature</b></center><br>
+
+<tr><th>Year</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th><th>Jul</th><th>Aug</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dec</th></tr>
+<tr><td>1984</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>1985</td><td>-4.75</td><td>-5.75</td><td>-12.75</td><td>-14.98</td><td>-25.44</td><td>-24.07</td><td>-27.71</td><td>-31.00</td><td>-25.92</td><td>-18.77</td><td>-12.85</td><td>-3.61</td></tr>
+<tr><td>1986</td><td>-3.27</td><td>-6.29</td><td>-14.55</td><td>-19.64</td><td>-21.59</td><td>-22.39</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>1987</td><td>-1.84</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>1988</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>1989</td><td>-4.85</td><td>NA</td><td>-13.91</td><td>-20.70</td><td>-29.86</td><td>-25.20</td><td>-28.11</td><td>-27.47</td><td>-27.50</td><td>-18.79</td><td>-9.71</td><td>-1.57</td></tr>
+<tr><td>1990</td><td>-3.33</td><td>-3.72</td><td>-7.48</td><td>-9.56</td><td>-12.61</td><td>-16.46</td><td>-10.24</td><td>-20.65</td><td>-19.44</td><td>-9.48</td><td>-4.69</td><td>-1.94</td></tr>
+<tr><td>1991</td><td>-0.42</td><td>-1.42</td><td>-7.61</td><td>-11.99</td><td>-12.35</td><td>-12.79</td><td>-11.14</td><td>-16.77</td><td>-15.20</td><td>-12.39</td><td>-5.77</td><td>4.22</td></tr>
+<tr><td>1992</td><td>0.83</td><td>-1.80</td><td>-6.04</td><td>-10.71</td><td>-10.86</td><td>-12.66</td><td>-16.21</td><td>-18.90</td><td>-18.49</td><td>-16.41</td><td>-5.79</td><td>-1.28</td></tr>
+<tr><td>1993</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>1994</td><td>0.01</td><td>-3.61</td><td>-8.13</td><td>-11.38</td><td>-13.81</td><td>-11.92</td><td>-15.29</td><td>-18.31</td><td>-16.20</td><td>-12.90</td><td>NA</td><td>NA</td></tr>
+<tr><td>1995</td><td>-0.19</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>-18.06</td><td>-18.72</td><td>-17.99</td><td>-9.77</td><td>-5.96</td><td>-0.50</td></tr>
+<tr><td>1996</td><td>0.35</td><td>-1.04</td><td>-7.89</td><td>-11.76</td><td>-16.61</td><td>-14.69</td><td>-12.02</td><td>-13.92</td><td>-10.08</td><td>-8.30</td><td>-4.81</td><td>-0.02</td></tr>
+<tr><td>1997</td><td>0.49</td><td>-2.48</td><td>-7.28</td><td>-8.14</td><td>-13.09</td><td>-12.25</td><td>-18.04</td><td>-16.12</td><td>-17.02</td><td>-13.41</td><td>-4.84</td><td>1.13</td></tr>
+<tr><td>1998</td><td>-0.02</td><td>-1.70</td><td>-5.21</td><td>-15.81</td><td>-9.72</td><td>-14.14</td><td>-15.63</td><td>-17.88</td><td>-15.86</td><td>-13.24</td><td>-5.17</td><td>1.62</td></tr>
+<tr><td>1999</td><td>-0.91</td><td>-3.23</td><td>-7.65</td><td>-13.41</td><td>-14.08</td><td>-11.36</td><td>-18.68</td><td>-15.98</td><td>-15.57</td><td>-12.85</td><td>-5.37</td><td>-2.86</td></tr>
+<tr><td>2000</td><td>-0.82</td><td>-3.91</td><td>-10.22</td><td>-11.48</td><td>-16.16</td><td>-12.61</td><td>-16.87</td><td>-22.85</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>2001</td><td>-0.31</td><td>-2.16</td><td>-7.80</td><td>-12.27</td><td>-12.77</td><td>-16.45</td><td>-21.27</td><td>-19.46</td><td>-17.54</td><td>-12.43</td><td>-5.37</td><td>1.12</td></tr>
+<tr><td>2002</td><td>-0.22</td><td>-3.69</td><td>-6.88</td><td>-8.39</td><td>-9.38</td><td>-11.89</td><td>-12.63</td><td>-16.11</td><td>-15.46</td><td>-8.69</td><td>-6.95</td><td>-0.97</td></tr>
+<tr><td>2003</td><td>0.92</td><td>-1.59</td><td>-6.42</td><td>-10.32</td><td>-13.17</td><td>-14.00</td><td>-17.56</td><td>-15.17</td><td>-16.32</td><td>-12.60</td><td>-4.19</td><td>4.12</td></tr>
+<tr><td>2004</td><td>1.34</td><td>-1.43</td><td>-7.03</td><td>-14.85</td><td>-15.52</td><td>-16.78</td><td>-21.68</td><td>-17.89</td><td>-16.89</td><td>-9.87</td><td>-5.28</td><td>1.67</td></tr>
+<tr><td>2005</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>2006</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>2007</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr>
+<tr><td>2008</td><td>-0.37</td><td>-2.59</td><td>-6.22</td><td>-9.45</td><td>-15.54</td><td>-17.47</td><td>-16.08</td><td>-19.95</td><td>-15.03</td><td>-13.19</td><td>-5.56</td><td>NA</td></tr>
+<tr><td>2009</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>-5.08</td><td>-1.19</td></tr>
+<tr><td>2010</td><td>1.33</td><td>-1.54</td><td>-6.79</td><td>-11.35</td><td>-15.67</td><td>-18.80</td><td>-19.89</td><td>-20.04</td><td>-16.24</td><td>-13.48</td><td>-5.12</td><td>NA</td></tr>
+<tr><td>2011</td><td>-0.65</td><td>-3.23</td><td>-8.16</td><td>-8.94</td><td>-14.89</td><td>-12.09</td><td>-15.65</td><td>-14.72</td><td>-16.55</td><td>-13.00</td><td>-3.90</td><td>-0.95</td></tr>
+<tr><td>2012</td><td>-1.01</td><td>-4.07</td><td>-8.89</td><td>-13.55</td><td>-13.69</td><td>-16.46</td><td>-19.63</td><td>-15.14</td><td>-15.06</td><td>-10.25</td><td>-3.44</td><td>0.98</td></tr>
+<tr><td>2013</td><td>0.60</td><td>-2.95</td><td>-8.47</td><td>-12.71</td><td>-15.68</td><td>-13.92</td><td>-16.89</td><td>-16.09</td><td>-12.01</td><td>-11.77</td><td>-4.58</td><td>1.01</td></tr>
+<tr><td>2014</td><td>0.01</td><td>-2.59</td><td>-7.51</td><td>-12.37</td><td>-13.23</td><td>-14.87</td><td>-18.30</td><td>-17.81</td><td>-15.21</td><td>-14.11</td><td>-6.01</td><td>-1.16</td></tr>
+
+
+	</table>
+	<br>
+	Click <a href="https://npdc.ncpor.res.in/pdc/Aws/imd/downloadsdata/monthly_average_data/maitri/maitriavg1984-2014temp.txt" target="_blank">here</a> to download a text version of the above table.
+	<br>&nbsp;
+    </body>
+</html>

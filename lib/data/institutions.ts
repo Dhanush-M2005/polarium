@@ -1,0 +1,57 @@
+import { Institution } from "./types";
+import { PROTOTYPE_SOURCE } from "./sources";
+
+export const MOCK_INSTITUTIONS: Institution[] = [
+  {
+    id: "inst-ncpor",
+    name: "National Centre for Polar and Ocean Research",
+    shortName: "NCPOR",
+    type: "Autonomous R&D Institution",
+    location: "Vasco da Gama, Goa, India",
+    description: "India's premier R&D institution responsible for coordinating scientific activities in Antarctica, the Arctic, and the Himalayas.",
+    website: "https://ncpor.res.in",
+    researchDomains: ["Glaciology", "Oceanography", "Paleoclimatology", "Atmospheric Science"],
+    researcherIds: ["res-01", "res-02", "res-03", "res-04"],
+    projectIds: ["proj-001", "proj-002", "proj-003", "proj-004"],
+    source: PROTOTYPE_SOURCE,
+  },
+  {
+    id: "inst-imd",
+    name: "India Meteorological Department",
+    shortName: "IMD",
+    type: "Government Meteorological Agency",
+    location: "New Delhi, India",
+    description: "National meteorological service operating automatic weather stations and ozone observations at Antarctic stations.",
+    website: "https://mausam.imd.gov.in",
+    researchDomains: ["Meteorology", "Atmospheric Physics", "Ozone Monitoring"],
+    researcherIds: ["res-05"],
+    projectIds: ["proj-001"],
+    source: PROTOTYPE_SOURCE,
+  },
+  {
+    id: "inst-gsi",
+    name: "Geological Survey of India",
+    shortName: "GSI",
+    type: "Government Geological Bureau",
+    location: "Kolkata, India",
+    description: "Conducts geological mapping, structural lineament surveys, and bedrock sample laboratory geochronology in polar regions.",
+    website: "https://gsi.gov.in",
+    researchDomains: ["Geology", "Geomorphology", "Tectonics"],
+    researcherIds: ["res-02"],
+    projectIds: ["proj-005"],
+    source: PROTOTYPE_SOURCE,
+  },
+  {
+    id: "inst-ngri",
+    name: "National Geophysical Research Institute",
+    shortName: "NGRI",
+    type: "CSIR Research Laboratory",
+    location: "Hyderabad, India",
+    description: "Specializes in polar geomagnetism, seismic monitoring, and gravity-anomaly mapping.",
+    website: "https://ngri.res.in",
+    researchDomains: ["Geophysics", "Seismology", "Geomagnetism"],
+    researcherIds: ["res-06"],
+    projectIds: ["proj-001", "proj-004"],
+    source: PROTOTYPE_SOURCE,
+  }
+];
